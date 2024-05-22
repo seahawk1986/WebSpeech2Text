@@ -9,7 +9,7 @@ git clone https://github.com/seahawk1986-hotmail/WebSpeech2Text.git
 cd WebSpeech2Text
 python3 -m venv .venv
 . .venv/bin/activate
-pip install -U fastapi whisper-ctranslate2
+pip install -U fastapi faster-whisper
 deactivate
 ````
 
