@@ -24,19 +24,22 @@
       h1{
         margin: 100px;
       }
+	  .list-unstyled {
+		list-style: none;
+	  }
     </style>
   </head>
   <body>
+	<h1>Spracherkennung mit whisper-ctranslate2</h1>
+    <div>
+      <ul  class="list-unstyled" id='ul'></ul>
+    </div>
 	<div>
-		<h1>Spracherkennung</h1>
 		<div id='btns'>
 			<button  class="btn btn-default" id='start'>Start</button>
 			<button  class="btn btn-default" id='stop'>Stop</button>
 		</div>
 	</div>
-    <div>
-      <ul  class="list-unstyled" id='ul'></ul>
-    </div>
     <script src="script.js"></script>
   </body>
 </html>
