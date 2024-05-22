@@ -1,0 +1,47 @@
+button{
+    margin: 10px 5px;
+}
+li{
+    margin: 10px;
+}
+body{
+    width: 90%;
+    max-width: 960px;
+    margin: 0px auto;
+}
+#btns{
+    display: none;
+}
+h1{
+    margin: 100px;
+}
+.list-unstyled {
+    list-style: none;
+}
+
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    /* width: 200px;
+    height: 25px; */
+}
+
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+}
+
+.spinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #000;
+    animation: spinner .6s linear infinite;
+}
+

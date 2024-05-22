@@ -79,6 +79,7 @@ function makeLink(){
   let btn = document.createElement("button");
   btn.data = "Hi"
   btn.innerHTML = "Spracherkennung";
+  btn.classList.add("spinner");
 
     li.appendChild(mt);
     // li.appendChild(hf);
@@ -101,6 +102,7 @@ function makeLink(){
               d.appendChild(txt);
               li.appendChild(d);
               btn.innerHTML="Fertig"
+              btn.classList.remove("spinner");
             }))
             .catch(err => {
                 alert(err);
